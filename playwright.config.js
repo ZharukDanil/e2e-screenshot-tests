@@ -2,6 +2,8 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: 'tests',
+  // ⛔ Ігноруємо всі тести у папці screenshots
+  testIgnore: ['tests/screenshots/**'],
   reporter: 'html',
   use: {
     baseURL: 'http://localhost:3000',
