@@ -5,11 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-<<<<<<< HEAD
-    "start": "npx http-server . -p 3000"
-=======
     "start": "http-server -p 3000"
->>>>>>> 97c8b2892b5c004820f1cff2c2e7f598740b55ac
   },
   "keywords": [],
   "author": "",
